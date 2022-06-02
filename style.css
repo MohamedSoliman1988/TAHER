@@ -1,0 +1,155 @@
+
+#hom{
+    color: rgb(48, 187, 48);
+}
+.H{         /* تنسيق الصوره والعنوان */
+    background-color:#E3E6F3;
+}
+.h{
+display: flex;
+align-items: center;
+}
+#H{
+    color: rgb(48, 187, 48);
+}
+.M{
+    margin-left: 20px;
+}
+.aa{                      /*صوره الshop */
+    position: relative ;
+}
+.aa p{
+    color: rgb(48, 187, 48);    
+    position:absolute;
+    z-index: 3;
+    left: 30%; 
+    top: 10%; 
+}
+.m{
+    text-align: center;
+}
+                /*الصوره ام نظاره*/
+.N{ background-image:url(images/b2.jpg);
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+
+}
+#N{
+    color: red;
+}
+.Z{
+    text-align: center;
+    padding: 50PX;
+}
+.Z h1{
+    font-size: 50px;
+}
+      /*      الجزء الخامس*/
+.q{         /* 1*/
+    display:flex;
+    flex-direction: row;
+    padding-top:10px;
+    
+}
+@media (max-width: 800px) {
+    .q {
+      flex-direction: column;
+    }
+  }
+.w{
+    position: relative;
+    
+}
+.t{
+    position: relative;
+    z-index: 1;
+    
+}
+.u{
+    position: absolute;
+  z-index: 3;
+  left: 15px;
+  color: #E3E6F3;
+  top:20%
+}
+.boton{     /* زرار الصوره 1*/
+    background-color: #FFBC54;
+    border-color: aliceblue;
+    
+}
+.boton a{color: #E3E6F3;
+    text-decoration: none;
+}   /*زرار الصوره الثانيه*/
+.boton2{
+    background-color:#536766;
+    border-color: aliceblue;
+    
+}
+.boton2 a{color: #E3E6F3;
+    text-decoration: none;
+}
+.r{     /* 3*/
+    position: relative;
+}
+.y{
+    position: relative;
+    z-index: 1;
+    margin-left: 15px;
+}
+.i{
+    position: absolute;
+  z-index: 3;
+  margin-left: 15px;
+  left: 15px;
+  color: #E3E6F3;
+  top:20%
+}
+#k{
+    color: red;
+}
+
+.vv{
+    background-color: rgb(1, 5, 29);
+    color: aliceblue; 
+}
+
+.xx{
+    display: flex;
+    padding-top: 25px;
+} 
+.v{
+    margin-left: 20%;
+}
+#co{
+    color: darkgoldenrod;
+}
+.zzz{
+    display: flex;
+}
+.bbb{
+    display: flex;
+    
+}
+/* ايقونه السله*/
+.ppp{ display: flex;
+    float: right;
+    margin-right: 15px;
+    background-color: #CCE7D0;
+    }
+    /* لون السعر*/
+.lll{color: rgb(41, 175, 41);}
+  /* ايقونه النجمه*/
+    .star {color:#F3B519 ;}
+#lok{
+    display: none;
+}
+
+    
+
+
+
+
+
+
